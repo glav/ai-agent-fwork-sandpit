@@ -4,7 +4,8 @@ A simple playpen to allow experimentation with the new AI Agent Framework
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
-- Python 3.x
+- Python 3.12 or higher
+- [uv](https://docs.astral.sh/uv/) - Python package and project manager
 - Azure CLI
 - Access to Azure OpenAI or Azure AI Foundry
 
@@ -50,16 +51,18 @@ The project requires environment variables to be configured in a `.env` file.
 
 ### 3. Install Dependencies
 
-Install the required Python packages:
+This project uses `uv` for Python dependency management. Install dependencies with:
 
 ```bash
-pip install -r requirements.txt
+uv sync
 ```
 
 ### 4. Run the Application
 
+Run the application using `uv`:
+
 ```bash
-python src/main.py
+uv run src/main.py
 ```
 
 ## Troubleshooting
