@@ -32,20 +32,10 @@ The project requires environment variables to be configured in a `.env` file.
 
 2. Edit the `.env` file and configure the following required variables:
 
-   **For Azure OpenAI:**
-   - `AZURE_OPENAI_API_KEY` - Your Azure OpenAI API key
-   - `AZURE_OPENAI_ENDPOINT` - Your Azure OpenAI endpoint (e.g., `https://{your-resource}.openai.azure.com`)
-   - `OPENAI_API_VERSION` - API version (default: `2024-02-15-preview`)
-
    **For Azure AI Foundry:**
-   - `AZURE_AI_FOUNDRY_CONNECTION_STRING` - Your AI Foundry project connection string
+   - `AZURE_AI_PROJECT_ENDPOINT` - Your AI Foundry project connection string. eg. `https://{foundry-host}.services.ai.azure.com/api/projects/{foundry-project}`
+   - `AZURE_AI_MODEL_DEPLOYMENT_NAME` - Your model deployment name eg. `gpt-4o`
 
-   **Optional Configuration:**
-   - `ENABLE_TRACE_LOGGING` - Set to `"true"` to enable detailed logging
-   - `APPLICATION_INSIGHTS_CONNECTION_STRING` - For Application Insights integration
-   - `OTEL_EXPORTER_OTLP_ENDPOINT` - OpenTelemetry collector endpoint
-   - `ENVIRONMENT` - Environment name (e.g., `development`, `production`)
-   - `DEBUG` - Set to `True` for debug mode
 
 3. See `.env-sample` for a complete list of available configuration options and examples.
 
