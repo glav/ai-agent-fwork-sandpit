@@ -52,7 +52,7 @@ uv sync
 Run the application using `uv`:
 
 ```bash
-uv run src/main.py
+uv run src/basic_samples/main.py
 ```
 
 ## Troubleshooting
