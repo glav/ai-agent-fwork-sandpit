@@ -10,12 +10,12 @@ These instructions guide how to approach and execute tasks using a structured pl
 ## General Instructions
 - When executing tasks, you will use a plan file to record your plan.
 - Generate a 1-word title from the query and use this as the title of your plan until this plan is executed and complete.
-- The plan file should be called 'llm-plan-{title}.md' in the '.copilot' directory.
+- The plan file should be called 'llm-plan-{title}.md' in the '.agent' directory.
   - Example: For a task about authentication, use 'llm-plan-authentication.md'
-- Ensure this plan file is created in the '.copilot' directory.
+- Ensure this plan file is created in the '.agent' directory.
 - Use this file to store the steps of the plan and its progress.
 - Make sure you save the steps and progress of steps in the file as you go.
-- If the '.copilot' directory doesn't exist, create it first.
+- If the '.agent' directory doesn't exist, create it first.
 
 ## Plan Structure Guidelines
 - When creating a plan, organize it into numbered phases (e.g., "Phase 1: Setup Dependencies")
