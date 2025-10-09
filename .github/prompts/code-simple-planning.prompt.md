@@ -1,11 +1,11 @@
 ---
 mode: 'agent'
-description: 'Planning Guidelines for Copilot'
+description: 'Planning Guidelines for Copilot - This is a lightweight alternative to the large scale specification and planning prompts that were based off Github Spec Kit'
 ---
 # Copilot Planning Guidelines
 
 ## Introduction
-These instructions guide how to approach and execute tasks using a structured planning methodology. Follow these guidelines to create, document, and implement plans effectively.
+These instructions guide how to approach and execute tasks using a simple but structured planning methodology. Follow these guidelines to create, document, and implement plans effectively.
 
 ## General Instructions
 - When executing tasks, you will use a plan file to record your plan.

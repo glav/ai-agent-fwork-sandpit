@@ -1,4 +1,5 @@
 ---
+description: Generalised instructions to follow for all tasks. Sets up common directories, variables and common instructions.
 mode: 'agent'
 ---
 
@@ -8,7 +9,8 @@ mode: 'agent'
 AGENT-DIR = '.agent'
 AGENT-LOGS-DIR = '.agent/logs'
 TEMPLATES-DIR = '.agent/templates'
-SPECIFICATIONS-DIR = '.agent/specifications'
+SPECIFICATIONS-DIR = 'docs/specifications'
+IMPLEMENTATION-DIR = 'docs/implementation-plans'
 MEMORY-DIR = '.agent/memory'
 SPEC-TEMPLATE = '.agent/templates/code-spec-template.md'
 
