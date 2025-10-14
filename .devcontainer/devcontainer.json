@@ -30,7 +30,9 @@
 				"timonwong.shellcheck",
                 "esbenp.prettier-vscode",
 				"GitHub.vscode-pull-request-github",
-                "ms-azuretools.vscode-bicep"
+                "ms-azuretools.vscode-bicep",
+                "ms-dotnettools.csdevkit",
+                "ms-dotnettools.csharp"
             ]
         }
     },
@@ -42,9 +44,11 @@
         "ghcr.io/devcontainers/features/azure-cli:1": {
             "version": "latest"
         },
-        "ghcr.io/va-h/devcontainers-features/uv:1": {}
-
-
+        "ghcr.io/va-h/devcontainers-features/uv:1": {},
+        "ghcr.io/devcontainers/features/dotnet:2": {
+            "version": "latest",
+            "installUsingApt": true
+        }
     },
     "remoteUser": "vscode",
     "forwardPorts": [

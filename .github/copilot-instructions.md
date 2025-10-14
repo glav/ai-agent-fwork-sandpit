@@ -18,7 +18,7 @@ SPEC-TEMPLATE = '.agent/templates/code-spec-template.md'
 - Ensure any of the directories used in the process exist before attempting to write files to them.
 - Any time you encounter $$VARIABLE$$, you should replace it with the corresponding value from the Variables section.
 - Ensure any code you produce is correct.
-- Ensure any changes you apply are summarised within a file in an easily readable form in the $$AGENT-DIR$$ directory.
+- Ensure any changes you apply are summarised within a file in an easily readable form in the $$AGENT-LOGS-DIR$$ directory.
 - The name of the file should be YYYYMMDD-hhmmss-{title}.md where {title} is a s 3 word summary of the requested changes eg. create-api-interface
   - The format of the file should take the form of an Architecture Decision Record (ADR)
   - For the ADR file - it should contain the following sections:
